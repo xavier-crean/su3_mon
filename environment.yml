@@ -1,0 +1,19 @@
+name: su3_mon
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - h5py=3.10.0
+  - matplotlib=3.8.3
+  - numpy=1.26.4
+  - python=3.10.14
+  - scikit-learn=1.4.1
+  - scipy=1.12.0
+  - opt_einsum=3.3.0
+  - pip=24.0
+  - pybind11==2.13.6
+  - jupyter
+  - pip:
+    - giotto-tda==0.6.0
+    - polars==0.20.16
+    - setuptools==75.8.0

@@ -1,0 +1,8 @@
+/cached_data/
+/data/
+/reports/
+/arXiv/
+/old/
+*cached_data*
+/analysis/build/
+/analysis/reweight.cp310*

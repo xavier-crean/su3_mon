@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+title: >-
+  Simplicity of confinement in SU(3) Yang-Mills — analysis
+  code release
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Xavier
+    family-names: Crean
+    email: 2237451@swansea.ac.uk
+    affiliation: Swansea University
+    orcid: 'https://orcid.org/0009-0007-8620-6243'
+  - given-names: Jeffrey
+    family-names: Giansiracusa
+    email: jeffrey.giansiracusa@durham.ac.uk
+    affiliation: Durham University
+    orcid: 'https://orcid.org/0000-0003-4252-0058'
+  - given-names: Biagio
+    family-names: Lucini
+    orcid: 'https://orcid.org/0000-0001-8974-8266'
+    affiliation: Queen Mary University of London
+    email: b.lucini@qmul.ac.uk
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.18395360
+    description: >-
+      X. Crean, J. Giansiracusa, and B. Lucini, Simplicity
+      of confinement in SU(3) Yang-Mills theory — Data and
+      Analysis Code Release (2026)
+repository-code: 'https://github.com/xavier-crean/su3_mon.git'
+abstract: >-
+  This repository accompanies the paper X. Crean, J.
+  Giansiracusa and B. Lucini, Simplicity of confinement in
+  SU(3) Yang-Mills (2026). It contains the code for the
+  extraction and topological data analysis (TDA) of Abelian
+  magnetic monopole currents, from SU(3) lattice gauge
+  field configurations, and for producing the plots and
+  results from the paper.
+keywords:
+  - Lattice
+  - Abelian monopole
+  - Confinement
+  - SU(3) Yang-Mills
+  - Topological data analysis
+license: GPL-3.0
