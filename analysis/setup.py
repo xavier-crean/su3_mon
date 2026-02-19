@@ -1,5 +1,6 @@
 from setuptools import setup, Extension
 import pybind11
+import numpy
 
 ext_modules = [
     Extension(
