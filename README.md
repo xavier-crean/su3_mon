@@ -70,7 +70,7 @@ The directory `src/` contains a python script and a python module:
     The output is saved into directory `data/observables/betti/Nt.Nx.Ny.Nz/` in `.csv` format.
 * `src/configuration_u1.py` a module used to parse lattice configurations from raw configuration data files.
 
-In the accompanying [data release][data], in `data/cnfgs/Nt=8/8.32.32.32/6.0000/`, a single Abelian projected configuration with $N_t = 8$ and $N_s = 32$ at $\beta = 6.0$, in the format of two U(1) lattice gauge field configurations, outputted by the [Monte Carlo and gauge fixing code][monte_carlo], is included as an example for the user. This data is to be used as the input for `src/betti_compute.py`.
+In the accompanying [data release][data], in `data/cnfgs/8.32.32.32/6.0000/`, a single Abelian projected configuration with $N_t = 8$ and $N_s = 32$ at $\beta = 6.0$, in the format of two U(1) lattice gauge field configurations, outputted by the [Monte Carlo and gauge fixing code][monte_carlo], is included as an example for the user. This data is to be used as the input for `src/betti_compute.py`.
 
 ## Performing the analysis (Step 2)
 
