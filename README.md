@@ -86,7 +86,7 @@ For ease, this is copied as a cell in the relevant jupyter notebooks. However, p
 
 ### Cached data files
 
-Intermediary files, for caching the results of the histogram reweighting code so that the code may be run more quickly second time round, are stored in the directory `cached_data/`. To use the files in `cached_data.tar.gz` (from the [data release][data]), it is important to ensure the **original** random seeds are used (as found in `analysis/Nt=X_rw.py`). With the cached data files, the code takes a few minutes to run; without them, it takes on the order of hours.
+Intermediary files, in [`.h5` format][hdf5], for caching the results of the histogram reweighting code so that the code may be run more quickly second time round, are stored in the directory `cached_data/`. To use the files in `cached_data.tar.gz` (from the [data release][data]), it is important to ensure the **original** random seeds are used (as found in `analysis/Nt=X_rw.py`). With the cached data files, the code takes a few minutes to run; without them, it takes on the order of hours.
 
 **N.B.** if `cached_data.tar.gz` is extracted into the root, then `analysis/Nt=X_rw.py` will read from this directory. If you are trying to reproduce the analysis using `data.tar.gz`, you will need to delete or rename the directory `cached_data/`.
 
@@ -95,12 +95,9 @@ Intermediary files, for caching the results of the histogram reweighting code so
 [paper]: https://arxiv.org/abs/2602.10088
 [data]: https://doi.org/10.5281/zenodo.18395360
 [monte_carlo]: https://doi.org/10.5281/zenodo.18171195
-[mc_README]: src/data/README
-[mc_AUTHORS]: src/data/AUTHORS
-[mc_install]: src/data/INSTALL
 [binder]: https://mybinder.org/
 [hdf5]: https://www.hdfgroup.org/solutions/hdf5
-[step_1]: #code-to-generate-lattice-configuration-data-step-1
-[step_2]: #processing-the-raw-lattice-configuration-data-step-2
+[step_1]: #processing-the-raw-lattice-configuration-data-step-1
+[step_2]: #performing-the-analysis-step-2
 [pybind]: https://pybind11.readthedocs.io/en/stable/index.html
 [g++]: https://gcc.gnu.org/
