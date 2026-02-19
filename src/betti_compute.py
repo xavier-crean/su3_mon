@@ -191,8 +191,8 @@ def process_config_pair(task):
         r = start + config_idx * sweep_step
         
         # Read files using path parameters
-        fn0 = f"0/{beta:.4f}/conf_u1_subg0.dat{r}"
-        fn1 = f"0/{beta:.4f}/conf_u1_subg1.dat{r}"
+        fn0 = f"data/cnfgs/{Nt}.{Nx}.{Ny}.{Nz}/{beta:.4f}/conf_u1_subg0.dat{r}"
+        fn1 = f"data/cnfgs/{Nt}.{Nx}.{Ny}.{Nz}/{beta:.4f}/conf_u1_subg1.dat{r}"
         
         with open(fn0, "rb") as f:
             conf0 = parseConfig(f.read(), Nt, Nx, Ny, Nz)
