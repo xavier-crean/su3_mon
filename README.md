@@ -1,4 +1,4 @@
-*cached_data*# Simplicity of confinement in SU(3) Yang-Mills $-$ Analysis Code
+# Simplicity of confinement in SU(3) Yang-Mills $-$ Analysis Code
 
 ## Contents
 
