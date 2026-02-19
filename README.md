@@ -8,10 +8,10 @@
   - [Setup](#setup)
     - [Requirements](#requirements)
     - [Installation](#installation)
-    - [Data Release](#data-release)
+    - [Extract data](#extract-data)
     - [Binder](#binder)
   - [Processing the raw lattice configuration data (Step 1)](#processing-the-raw-lattice-configuration-data-step-1)
-  - [Performing the analysis (Step 2)](#perfoming-the-analysis-step-2)
+  - [Performing the analysis (Step 2)](#performing-the-analysis-step-2)
       - [Cached data files](#cached-data-files)
 
 ## Overview
