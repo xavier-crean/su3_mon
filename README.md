@@ -82,7 +82,7 @@ An accompanying module `reweight.cpp`, written in C++, performs the multiple his
 
       python3 setup.py build_ext --inplace
 
-For ease, this is copied as a cell in the relevant jupyter notebooks. However, please note that other non-Unix-like distributions, e.g., MS Windows may require alternative compilation procedure.
+For ease, this is copied as a cell in the relevant jupyter notebooks. However, please note that other non-Unix-like distributions, e.g., MS Windows, may require alternative compilation procedure.
 
 ### Cached data files
 
