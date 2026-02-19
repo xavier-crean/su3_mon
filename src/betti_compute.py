@@ -11,7 +11,7 @@ import os
 """
 On command line: 
 argv[1] = Nt.Nx.Ny.Nz, argv[2] = beta, argv[3] = N_meas, argv[4] = sweep_step, argv[5] = sweep_start, argv[6] = N_processors,
-E.g., "python3 ./betti_compute.py 8.64.64.64 400 2000 10000 5"
+E.g., "python3 ./src/betti_compute.py 8.64.64.64 5.8900 400 2000 10000 5"
 """
 
 PLANE_LABELS = {(0, 1): 0, (0, 2): 1, (0, 3): 2, (1, 2): 3, (1, 3): 4, (2, 3): 5}
