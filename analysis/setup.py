@@ -13,6 +13,8 @@ ext_modules = [
         extra_compile_args=["-O3",
                             "-std=c++17",
                             "-D_GNU_SOURCE",
+                            "-include", 
+                            "math_compat.h"
                             ],
         extra_link_args=[
             "-lm"
